@@ -2,8 +2,7 @@
 import write_read_file as wrfile
 import random
 import check_module as check
-#get argv from user
-import sys
+import sys #get argv from user
 
 
 filename = "./database.txt"
@@ -13,7 +12,6 @@ check.check_valid_input_data()
 
 argumentFromUser = sys.argv[1]
 print(f"argumentFromUser: {argumentFromUser}")
-
 
 
 check.check_argument_in_range(argumentFromUser)

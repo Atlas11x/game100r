@@ -34,5 +34,3 @@ def check_file_with_random_number():
         f = open("random_number.txt", "w+")
         f.write(randomNumber)
         f.close()
-
-        return randomNumber
